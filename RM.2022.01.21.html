@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<title>RAN MEI's WEBSITE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; line-height: 1.5;}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+	
+p.small {
+  line-height: 1.5;
+}
+
+li.small{
+  line-height: 1.5;
+}
+			
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.container { 
+  height: 500px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+	
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/assets/img/IMG_5085.jpg");
+  min-height: 40%;
+}
+
+.w3-bar .w3-button {
+  padding: 8px;
+}
+</style>
+	
+<body class="w3-content w3-justify w3-dark-grey" style="max-width:1500px;">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" style="max-width:1500px; height:40px;" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">RAN MEI (梅然)</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home w3-large"></i> HOME</a>
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user w3-large"></i> ABOUT</a>
+      <a href="#research" class="w3-bar-item w3-button"><i class="fa fa-university w3-large"></i> RESEARCH</a>
+      <a href="#publication" class="w3-bar-item w3-button"><i class="fa fa-book w3-large"></i> PUBLICATION</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button">RESEARCH</a>
+  <a href="#publication" onclick="w3_close()" class="w3-bar-item w3-button">PUBLICATION</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+	<div class="w3-display-middle w3-text-white", style="padding:32px">
+		<span class="w3-jumbo w3-hide-small"><b>Ran Mei's Website</b></span><br>
+		<span class="w3-xxlarge w3-hide-large w3-hide-medium"><b>Ran Mei's Website</b></span><br>
+	</div> 
+</header>
+
+<!-- Home Section -->
+<div class="w3-padding-48 w3-sand">
+	<div class="w3-row-padding">
+		<!-- Photo first on cellphone -->
+		<div class="w3-center w3-hide-large w3-hide-medium">
+			<img class="w3-card w3-margin-top" src="/assets/img/profile.jpg" alt="profile" style="width:70%;max-width:300px">
+		</div>
+		<!-- Text Intro -->
+		<div class="w3-col l8 m6">
+		      	<p class="w3-padding small">I am now a postdoc working at the National Institute of Advanced Industrial Science and Technology, Japan (<a href="https://www.aist.go.jp/index_en.html">AIST</a>, <a href="https://www.aist.go.jp/">産業技術総合研究所</a>) in the <a href="https://unit.aist.go.jp/bpri/bpri-gene/member_e.html">Microbial and Genetic Resources Research Group</a>. My current research topic is revealing the evolutionary hostory of microorganisms occurring in natural and engieered ecosystems with <a href="https://scholar.google.co.jp/citations?user=PSXFfsoAAAAJ&hl=en">Dr. Masaru K. Nobu</a>. I got my Master’s and PhD degree both in Environmental Science and Engingeering from the University of Illinos at Urbana-Champaign (UIUC), where most of my research focused on microbial ecology in wastewater treatment processes. I received my Bachelor’s of Engineering degree from Peking University (北京大学), China.</h5>
+    			<p><i class="fa fa-paperclip fa-fw w3-large w3-padding"></i> <a href="https://scholar.google.co.jp/citations?user=mRbZ3CoAAAAJ&hl=en"> Google Scholar</a>
+			<p><i class="fa fa-envelope fa-fw w3-large w3-padding"></i> Email: r.mei@aist.go.jp</p>	
+		</div>
+		<!-- Photo on desktop -->
+		<div class="w3-col l4 m6">
+      			<img class="w3-card w3-right w3-hide-small w3-padding-large" src="/assets/img/profile.jpg" alt="profile" style="width:50%;max-width:300px">
+		</div>
+  	</div>		
+</div>
+	
+	
+<!-- About Section -->
+<div class="w3-row w3-padding-48 w3-container w3-light-grey" id="about">
+	<div>
+		<h1 class="w3-padding-large w3-text-black w3-center"><b>ABOUT</b></h1>
+  		<h3 class="w3-text-black w3-margin-left"><b>EDUCATION</b></h3>
+  		<hr style="width:30%;text-align:left;margin-left:16px;height:1px;background-color:black">
+  			<ul>
+  			<li class="small">Ph.D., Environmental Engineering and Science, University of Illinois at Urbana-Champaign (UIUC), USA, 2020</li>
+	  		<li class="small">M.S., Environmental Engineering and Science, University of Illinois at Urbana-Champaign (UIUC), USA, 2015</li>
+  			<li class="small">B.Eng., Energy and Resources Engineering, Peking University, China, 2013</li>
+			</ul>
+		</br>
+		
+		<h3 class="w3-text-black w3-margin-left"><b>AWARDS & HONORS</b></h3>
+		<hr style="width:30%;text-align:left;margin-left:16px;height:1px;background-color:black;">
+			<ul>
+  			<li class="small">Jacobs Engineering Group / AEESP Outstanding Doctoral Dissertation Award, Association of Environmental Engineering and Science Professors (AEESP), 2021</li>
+	  		<li class="small">Chinese Government Award for Outstanding Self-financed Students Abroad, China Scholarship Council, 2020</li>
+  			<li class="small">Engelbrecht Fellowship, UIUC, 2020</li>
+			<li>...</li>
+			</ul>
+		</br>
+	
+		<h3 class="w3-text-black w3-margin-left"><b>OTHER ACTIVITIES</b></h3>
+		<hr style="width:30%;text-align:left;margin-left:16px;height:1px;background-color:black;">
+			<ul>
+  			<li class="small">Jornal reviewer: Water Research, Environmental Science & Technology, Frontiers in Microbiology, Environmental International ...
+	  		<li class="small">Course instructor: Remediation Design, UIUC, 2018</li>
+  			<li>...</li>
+		</ul>
+	  </div>
+  </div>
+
+
+<!-- Research Section -->
+<div class="w3-padding-48 w3-white" id="research">
+	<h1 class="w3-padding-large w3-text-black w3-center"><b>RESEARCH</b></h1>
+	
+	<!-- First Research -->	
+	<div class="w3-row-padding w3-margin-left w3-margin-right">
+
+		<!-- Text -->
+		<div class="w3-col l6 m6">
+		<h3 class="w3-text-black"><b>Evolutionary History of Methanogenesis and Archaea</b></h3>	
+		<!-- Photo first on cellphone -->
+		<div class="w3-center w3-hide-large w3-hide-medium">
+			<img class="w3-round w3-margin-top" src="/assets/img/archaea.jpg" alt="archaea" style="width:100%;max-width:500px">
+		</div>
+			<p class="small">The domain <strong>Archaea</strong> was originally discovered as specialists in lithoautotrophic methanogenesis and are now recognized to take a plethora of lifestyles including organotrophy, parasitism, and symbiosis that led to the emergence of Eukarya. To uncover what ways of life ancient archaea took and how this gave rise to physiologies prominent today (i.e., methanogenesis and symbiosis), we bring milestones of early archaeal evolution into focus through holistic exploration of genetically traceable (genes) and untraceable (extant physiologies) features related to lithoautotrophy. Phylogenetic and experimental evidence suggests that methanogenesis by Archaea originated from non-enzymatic methane-producing reactions catalyzed by the key coenzyme F430 and, after innovation of the central enzyme of methanogenesis (i.e., methyl-S-CoM reductase), the last Archaea common ancestor emerged as a versatile H2-, CO2-, and methanol-utilizing methanogen. Subsequently, stepwise specialization of methanogenesis diversified methanogens and, in parallel, drove loss of lithotrophy, autotrophy, and thermophily in two major archaeal lineages – DPANN and Asgardarchaeota – paving way for transition towards slow-growing energetically-dependent symbiosis conducive for eukaryogenesis. Thus, methanogenesis is far more than a hallmark metabolism of Archaea, but the evolutionary fulcrum at the domain’s foundation.</p>
+		</div>
+		
+		<div class="w3-col l6 m6">
+      			<div class="container">
+				<img class="center w3-round-large w3-right w3-hide-small w3-padding-large" src="/assets/img/archaea.jpg" alt="archaea" style="width:100%;max-width:500px">	
+			</div>
+		</div>
+    	</div>
+	</br>
+	
+	<!-- Second Research -->	
+	<div class="w3-row-padding w3-margin-left w3-margin-right">
+		<div class="w3-col l6 m6">
+      			<div class="container">
+				<img class="center w3-round-large w3-left w3-hide-small w3-padding-large" src="/assets/img/immigration.jpg" alt="immigration" style="width:100%;max-width:500px">
+			</div>
+		</div>	
+		<div class="w3-col l6 m6">
+      			<h3 class="w3-text-black"><b>Microbial immigration</b></h3>
+			<div class="w3-center w3-hide-large w3-hide-medium">
+				<img class="w3-round w3-margin-top" src="/assets/img/immigration.jpg" alt="immigration" style="width:100%;max-width:500px">
+			</div>
+			<p class="small">about <strong>Immigration</strong> was originally discovered as specialists in lithoautotrophic methanogenesis and are now recognized to take a plethora of lifestyles including organotrophy, parasitism, and symbiosis that led to the emergence of Eukarya. To uncover what ways of life ancient archaea took and how this gave rise to physiologies prominent today (i.e., methanogenesis and symbiosis), we bring milestones of early archaeal evolution into focus through holistic exploration of genetically traceable (genes) and untraceable (extant physiologies) features related to lithoautotrophy. Phylogenetic and experimental evidence suggests that methanogenesis by Archaea originated from non-enzymatic methane-producing reactions catalyzed by the key coenzyme F430 and, after innovation of the central enzyme of methanogenesis (i.e., methyl-S-CoM reductase), the last Archaea common ancestor emerged as a versatile H2-, CO2-, and methanol-utilizing methanogen. Subsequently, stepwise specialization of methanogenesis diversified methanogens and, in parallel, drove loss of lithotrophy, autotrophy, and thermophily in two major archaeal lineages – DPANN and Asgardarchaeota – paving way for transition towards slow-growing energetically-dependent symbiosis conducive for eukaryogenesis. Thus, methanogenesis is far more than a hallmark metabolism of Archaea, but the evolutionary fulcrum at the domain’s foundation.</p>
+		</div>		
+    	</div>
+	</br>
+</div>
+		
+		
+<!-- Publication Section -->
+
+<div class="w3-container w3-padding-48 w3-row w3-sand" id="publication">
+  	<div>	
+		<h1 class="w3-padding-large w3-text-black w3-center"><b>PUBLICATION</b></h1>
+  		<h3 class="w3-text-black w3-margin-left w3-margin-right"><b>First author</b></h3>
+  			<ol>
+  			<li class="small"><u>Ran Mei,</u> Takashi Narihiro, Masaru K. Nobu, Kyohei Kuroda, and Wen-Tso Liu. Evaluating digestion efficiency in full-scale anaerobic digesters by identifying active microbial populations through the lens of microbial activity. <em>Scientific reports</em> 6, no. 1 (2016): 1-10. 
+  			<li class="small"><u>Ran Mei,</u> Takashi Narihiro, Masaru K. Nobu, and Wen-Tso Liu. Effects of heat shocks on microbial community structure and microbial activity of a methanogenic enrichment degrading benzoate. <em>Letters in applied microbiology</em> 63, no. 5 (2016): 356-362. 
+			</ol>
+		</br>
+	
+		<h3 class="w3-text-black w3-margin-left w3-margin-right"><b>Contributing author</b></h3>
+  			<ol>
+  			<li class="small">Nobu, Masaru K., Takashi Narihiro, <u>Ran Mei,</u> Yoichi Kamagata, Patrick KH Lee, Po-Heng Lee, Michael J. McInerney, and Wen-Tso Liu. Catabolism and interactions of uncultured organisms shaped by eco-thermodynamics in methanogenic bioprocesses. <em>Microbiome</em> , no. 1 (2020): 1-16.
+			</ol>	
+	</div>
+</div>
+ 
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-black w3-center w3-large">
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+<script>
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
