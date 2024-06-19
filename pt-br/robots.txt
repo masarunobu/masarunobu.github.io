@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://masarunobu.github.io/multi-language-al-folio/sitemap.xml
+Sitemap: https://masarunobu.github.io/sitemap.xml
