@@ -1,11 +1,11 @@
 ---
 page_id: project_1
 layout: page
-title: project 1
-description: with background image
+title: photosynthesis
+description: evolution and ecology
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: life and metabolism
 related_publications: true
 ---
 

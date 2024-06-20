@@ -5,7 +5,7 @@ title: projeto 1
 description: com imagem de fundo
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: 生命と代謝
 related_publications: true
 ---
 
