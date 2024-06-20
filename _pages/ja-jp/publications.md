@@ -2,8 +2,8 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: publications
-description: publication list
+title: 原著論文
+description: 査読付き原著論文リスト
 nav: true
 nav_order: 2
 ---
