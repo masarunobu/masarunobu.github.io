@@ -10,7 +10,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Main Building #306</p>
+    <p>Japan Agency for Marine-Earth Science and Technology</p>
     <p>2-15 Natsushima-cho</p>
     <p>Yokosuka, Kanagawa, JAPAN 237-0061</p>
 
