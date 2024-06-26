@@ -2,10 +2,10 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: Publications
-description: peer-reviewed journal articles
+title: publications
+description: peer-reviewed journal articles ( <b><b>*</b></b> co-first author, <b><b>^</b></b> corresponding author )
 nav: true
-nav_order: 2
+nav_order: 4
 ---
 
 <!-- _pages/publications.md -->
