@@ -8,7 +8,7 @@ middle_name: Konishi
 last_name: Nobu
 email: mnobu@jamstec.go.jp
 keywords: methanogenesis, photosynthesis, acetogenesis, syntrophy, archaea, bacteria, evolution, ecology, microbiology # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: term-logo.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://masarunobu.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
