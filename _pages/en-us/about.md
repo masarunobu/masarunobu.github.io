@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<b><b>About</b></b><br />My lab's/our goal is simple, <b><b>understanding why life is the way it is</b></b>, through exploration of evolution, metabolism, and microorganisms. My primary expertise is theory (evolution, thermodynamics, ecology) and bioinformatics and all of the work introduced here is/was only possible through collaboration and synergy with excellent peers, postdocs, and students whom I have been extremely fortunate to connect with.
+<b><b>About</b></b><br />My lab's/our goal is simple, <b><b>understanding why life is the way it is</b></b>, through exploration of evolution, metabolism, and microorganisms. My primary expertise lies in theory (evolution, thermodynamics, ecology) and bioinformatics. All the work presented here has been made possible through collaboration and synergy with excellent peers, postdocs, and students with whom I have been extremely fortunate to connect.
 
 Our history defines who we are and why the way we are. This holds true both for <b><b>"us"</b></b> as individuals and <b><b>"us"</b></b> spanning all living things on this planet. In our lab, we aim to unravel the essence of biology through retracing its four-billion-year evolutionary journey from its origin to today, using histories recorded in genes and "living fossil" organisms as our guides. 
 
