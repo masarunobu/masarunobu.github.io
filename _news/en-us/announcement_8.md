@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We got a new JST CREST project funded on exploring overlook carbon sinks in marine carbon cycling, excited to start this month!
+Excited to lead a new JST CREST project funded for exploration of overlook carbon sinks in marine carbon cycling with S Ehira (TMU), Y Tsukatani (JAMSTEC), and R Yamaguchi (JAMSTEC)!
